@@ -1,4 +1,5 @@
 // src/components/Hero.jsx
+import Profile from "../assets/images/profile.avif";
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 const Hero = () => {
@@ -59,7 +60,7 @@ const Hero = () => {
           <div className="md:w-1/2">
             <div className="w-64 h-64 sm:w-80 sm:h-80 mx-auto bg-[#e0f2fe] rounded-full overflow-hidden border-8 border-white shadow-lg">
               <img
-                src="public/profile.avif"
+                src={Profile}
                 alt="Profile"
                 className="w-full h-full object-fill"
                 onError={(e) => {
