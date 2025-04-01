@@ -59,7 +59,7 @@ const Hero = () => {
           <div className="md:w-1/2">
             <div className="w-64 h-64 sm:w-80 sm:h-80 mx-auto bg-[#e0f2fe] rounded-full overflow-hidden border-8 border-white shadow-lg">
               <img
-                src="/src/assets/images/profile.avif"
+                src="public/profile.avif"
                 alt="Profile"
                 className="w-full h-full object-fill"
                 onError={(e) => {

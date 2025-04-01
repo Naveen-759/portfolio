@@ -13,7 +13,7 @@ const Projects = () => {
       title: "Farmer's Assistant",
       description:
         "A MERN stack application that assists farmers in crop selection, fertilizer recommendations, pesticide management, tractor rentals, nursery management, and real-time agricultural market price tracking",
-      image: "/src/assets/images/farmer-assistant.png",
+      image: "public/farmer-assistant.png",
       technologies: ["React", "Node.js", "MongoDB", "Express", "Firebase"],
       demoLink: "#",
       codeLink: "https://github.com/Naveen-759/agri-credit",
@@ -24,7 +24,7 @@ const Projects = () => {
       title: "Blogify(Gemini API Integrated)",
       description:
         " Blogify is a dynamic and user-friendly website designed to empower individuals to share their thoughts, insights, and experiences with the world. Built using the powerful combination of React and Node.js, Blogify offers a seamless and interactive blogging platform for both creators and readers. With the integration of the Gemini API, Blogify enhances the user experience by providing the auto spelling correcting system.",
-      image: "/src/assets/images/blogify1.png",
+      image: "public/blogify1.png",
       technologies: ["Ejs", "Node.js"],
       demoLink: "https://youtube-blog-1.onrender.com/",
       codeLink: "https://github.com/Naveen-759/YOUTUBE-BLOG",
@@ -35,7 +35,7 @@ const Projects = () => {
       title: "Expensee Tracker",
       description:
         " A MERN stack expense tracker application that allows users to manage their finances by adding income and tracking expenses. The app features a user-friendly interface with intuitive navigation, enabling seamless financial tracking. It provides dynamic updates for expense summaries and ensures efficient management of income and expenditure through robust backend functionality.",
-      image: "/src/assets/images/expense-tracker.png",
+      image: "public/expense-tracker.png",
       technologies: ["React", "Tailwind CSS", "Vite"],
       demoLink: "https://expensetracker-ruddy.vercel.app/",
       codeLink: "https://github.com/Naveen-759/expense",
