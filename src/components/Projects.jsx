@@ -92,12 +92,12 @@ const Projects = () => {
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.target.src = `https://via.placeholder.com/600x400.png?text=${project.title.replace(
-                      " ",
-                      "+"
-                    )}`;
-                  }}
+                  // onError={(e) => {
+                  //   e.target.src = `https://via.placeholder.com/600x400.png?text=${project.title.replace(
+                  //     " ",
+                  //     "+"
+                  //   )}`;
+                  // }}
                 />
               </div>
               <div className="p-6">
